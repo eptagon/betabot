@@ -7,7 +7,7 @@ const welcomeChannelComment = "어서오세요.";
 const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
-  console.log('베타봇 온!');
+  console.log('베타봇 온');
 });
 
 client.on("guildMemberRemove", (member) => {
